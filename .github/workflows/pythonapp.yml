@@ -1,4 +1,4 @@
-name: Python application
+name: CI without test
 
 on: [push]
 
@@ -28,5 +28,3 @@ jobs:
     #  run: |
     #    pip install pytest
     #    pytest
-    - name: Bandit Check
-      uses: jpetrucciani/bandit-check@1.6.2
